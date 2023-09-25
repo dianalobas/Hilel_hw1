@@ -3,26 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Відправка форм</title>
 </head>
 <body>
-    <p>test</p>
+    <!-- <form action="index.html" method="GET">
+        <input type="text" name="username">
+        <input type="checkbox" name="check1" value="op1">option1
+        <input type="checkbox" name="check2" value="op2">option2
+        <input type="checkbox" name="check3" value="op3">option3
+        <br>
+        <input type="radio" name="group1">
+        <input type="radio" name="group1">
+        <input type="radio" name="group1">
+        <br>
+        <input type="password" name="psw" id="psw" maxlength="5">
+        <input type="email" name="email" id="em1">
+        <input type="color">
+        <input type="hidden" name="token" value="token_%8foqwm">
+        0<input type="range" name="range1" id="range1" min="0" max="100">100
+        <input type="file">
+        <input type="date" name="date1" id="date1">
+        <input type="submit" value="Submit">
+    </form> -->
 
-    <ul>
-        <li>$ git init</li>
-        <li>$ git remote add origin [link]</li>
-        <li>$ git clone</li>
-        <li>$ git config --global user.name "name"</li>
-        <li>$ git config --global user.email "email"</li>
-        <li>$ git add [name file]</li>
-        <li>$ git status</li>
-        <li>$ git branch [name branch]</li>
-        <li>$ git merge [name branch]</li>
-        <li>$ git push</li>
-        <li>$ git pull</li>
-        <li>$ git commit -m "caption"</li>
-    </ul>
-    
-    <a href="gallery.html">go to gallery.html</a>
+    <!-- <form action="https://fom.in.ua/echo" method="POST">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Username" id="username">
+            <input type="image" src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" width="18px">
+        </div>
+        <p>
+            <label for="psw">Password</label>
+            <input type="password" name="password" placeholder="Пароль" maxlength="15" id="psw" required>
+        </p>
+        <input type="submit" value="Залогінитись">
+        <input type="reset" value="reset">
+    </form> -->
+
+    <!-- <form action="https://fom.in.ua/echo" method="POST">
+        <input type="file" name="upload" id="upload" multiple accept="image/*, .pdf">
+        <input type="submit" value="Завантажити">
+    </form> -->
+
+    <!-- <form action="https://fom.in.ua/echo" method="post">
+        <label for="fav_color">Оберіть колір</label>
+        <input type="color" name="color" id="fav_color" list="colors" value="fff000"> не работает список
+        <datalist id="colors">
+            <option value="fd0000" label="Red1"></option>
+            <option value="fd4500" label="Red2"></option>
+            <option value="fd0540" label="Red3"></option>
+        </datalist>
+    </form> -->
+
+    <!-- <form action="https://fom.in.ua/echo" method="post">
+        <fieldset>
+            <legend>Ми вивчаємо:</legend>
+            <input type="radio" name="teach" id="html">HTML
+            <br>
+            <input type="radio" name="teach" id="css">CSS
+            <br>
+            <input type="radio" name="teach" id="js">JS
+        </fieldset>
+        <div>
+            <button type="submit">обрати</button>
+        </div>
+    </form> -->
+
+    <!-- <form action="">
+        <textarea name="comment" id="comment" cols="30" rows="10" maxlength="200" style="resize: none;"></textarea>
+    </form> -->
+
+    <!-- <form action="" novalidate>
+        <label for="city">Your city</label>
+        <select name="city" id="city">
+            <option value="-" disabled>Виберіть своє місто</option>
+            <option value="Rivne">Рівне</option>
+            <option value="Kharkiv">Харків</option>
+            <option value="Kyiv">КиЇв</option>
+        </select>
+    </form> -->
+
+    <form action="">
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" step="1" min="0" max="100" value="18">
+        </div>
+        <div>
+            <input type="text" name="name" id="name" autofocus>
+        </div>
+    </form>
+
 </body>
 </html>
